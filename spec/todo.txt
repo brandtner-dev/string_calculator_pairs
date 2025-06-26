@@ -1,16 +1,4 @@
-TODO LIST
-"“ => 0 
-
-"1“ => 1 
-
-"1,2“ => 3 
-
-"1,27" => 28 
-
-"15,17,21" => 53 
-
-"1,5,27,45“ => 78 
-
-"1,10,100,1000,10000“ => 11111 
-
-"A,10" => 10 
+1. Mache Funktion die ein Array als Input nimmt.
+2. Mache die Summe (Standard 0)
+3. Lasse die Funktion durchs Array durchgehen
+4. Berechne und retourniere die Summe.
