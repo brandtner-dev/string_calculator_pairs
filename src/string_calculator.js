@@ -1,3 +1,5 @@
 function Electrongame(arr) {
-    return 0;
+    let sum = 0;
+   
+    return sum;
 }
