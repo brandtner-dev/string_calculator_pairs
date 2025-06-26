@@ -8,5 +8,14 @@ describe("Electron Game", function() {
         const result = Electrongame([1, 2, 4, 6]);
         expect(result).toBe(0);
     });
+	it("should return 6 when the array contains one 3 and one 5", function() {
+        const result = Electrongame([3, 5]);
+        expect(result).toBe(6);
+    });
+
+    it("should return 12 when the array contains two 3s and two 5s", function() {
+        const result = Electrongame([3, 3, 5, 5]);
+        expect(result).toBe(12);
+    });
 });
 });
